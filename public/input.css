@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mybtn{
+    @apply w-28 h-12 bg-blue-900 text-white rounded-2xl font-bold shadow-md shadow-black active:translate-x-2 active:translate-y-2 transition-all decoration-current
+}
